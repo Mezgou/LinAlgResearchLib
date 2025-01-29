@@ -1,0 +1,3 @@
+[submodule "Vendor/CUnit"]
+	path = Vendor/CUnit
+	url = https://gitlab.com/cunity/cunit

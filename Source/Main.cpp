@@ -1,6 +1,10 @@
-#include <iostream>
+#include "Test.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    int resultTests = 0;
+#ifndef NDEBUG
+    resultTests = RunTests();
+#endif
+    std::cout << "Linear Algebra Research Library!\n";
+    return resultTests;
 }
